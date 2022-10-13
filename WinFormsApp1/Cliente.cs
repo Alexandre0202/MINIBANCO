@@ -9,10 +9,11 @@
         public void GerarNota()
         {
             string nota =
-                string.Format("Nome: {0}" +"\n"+
+                string.Format("Categoria: {0}"+"\n"+
+                              "Nome: {0}" +"\n"+
                               "CPF: {1}" + "\n" +
                               "Telefone: {2}",
-                              this.Nome,this.CPF,this.Telefone);
+                              this.Categoria,this.Nome,this.CPF,this.Telefone);
             Console.WriteLine(nota);
         }
     }
