@@ -27,6 +27,7 @@ namespace WinFormsApp1
             cliente.Telefone = txbTelefone.Text;
             cliente.DataNascimento = dtpNasicmento.Value;
             BD.AddPessoa(cliente);
+            MessageBox.Show(" -> Cliente Cadastrado! <-");
             this.Close();
         }
     }
